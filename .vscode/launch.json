@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/aditya/Desktop/bootCamp/02_Day",
-      "program": "c:/Users/aditya/Desktop/bootCamp/02_Day/build/Debug/outDebug",
+      "cwd": "c:/Users/aditya/Desktop/BootCamp/02_Day",
+      "program": "c:/Users/aditya/Desktop/BootCamp/02_Day/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
