@@ -3,17 +3,42 @@
 using namespace std;
 class Book
 {
-public:
+// public:
+private:
     string title;
     string author;
     int year;
+
+    void getTitle(string t){
+        title=t;
+    }
+    string setTitle(){
+        return title;
+    }
+
+    void getAuthor(string a){
+        author=a;
+    }
+    string setAuthor(){
+        return author;
+    }
+
+    void getYear(int y){
+        year=y;
+    }
+    int setYear(){
+        return year;
+    }
+
+
+
+public:
     Book(string t, string a, int y)
     {
         title = t;
         author = a;
         year = y;
     }
-
     void displayInfo(){
         cout<<"Book title is : "<<title<<endl;
         cout<<"Book author is : "<<author<<endl;
